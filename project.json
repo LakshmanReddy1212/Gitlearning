@@ -1,10 +1,11 @@
 {
-  "name": "Loginlink",
+  "name": "Pdf Automation using OCR",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.PDF.Activities": "[3.6.0]",
     "UiPath.System.Activities": "[22.4.4]",
     "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
@@ -46,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "88bea92e-e7c8-4eb6-a5d0-94e7b03e0ee6",
+      "uniqueId": "c3de70b2-b681-4630-90f1-17279ef99df5",
       "input": [],
       "output": []
     }
@@ -54,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
